@@ -1,9 +1,0 @@
-#include <stdio.h> 
-int main()
-{ int a ,  b , sum; 
-    a = 34; b= 44 ;
-    sum = a +  b ;
-    printf("sum = %d " ,sum);
-    printf("a-b= %d ",a-b);
-    return 0;
-}

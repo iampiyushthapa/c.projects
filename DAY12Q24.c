@@ -1,39 +1,33 @@
 #include<stdio.h>
-#include<windows.h>
 
 int main (){
 
-    /*Q24: Write a program to calculate electricity bill based on units consumed with these rates: 
-First 100 units at ₹5/unit 
-Next 100 units at ₹7/unit 
-Next 100 units at ₹10/unit 
-Above at ₹12/unit
-*/
+   // Q25: Write a program to implement a basic calculator using switch-case for +, -, *, /, %.
 
-int u;
-int units = u;
-printf("Enter units: ");
-scanf("%d",&u);
+int a;
+int b;
+char operation;
+printf("Enter number a : ");
+scanf("%d",&a);
+printf("Enter number b : ");
+scanf("%d",&b);
+printf("Enter operator :");
+scanf(" %c",& operation);
 
-if (u >0 && u<=100){
-     int bill =5*u;
-       printf("The bill is : Rs.%d",bill);}
-
-else if (u >100 && u<=200){
-        int bill =(5 * 100) + ((u - 100)*7);
-       printf("The bill is : Rs.%d",bill);} 
-
-else if (u >200 && u<=300){
-        int bill =(5 * 100) + (7 * 100) + ((u - 200)*10);
-       printf("The bill is : Rs.%d",bill);}
-
-else if (u >300 ){
-    int bill =(5 * 100) + (7 * 100) + ((10 * 100) + (u-300)*12);
-       printf("The bill is : Rs.%d",bill);
-       }
-       
-else {
-       printf("Invalid units");
+switch (operation)
+{
+case '+':printf("the sum is : %d",a+b);
+       break;
+case '-': printf("The diference is :%d",a-b);
+       break;
+case '*': printf("The product is : %d",a*b);
+       break;
+case '/': printf("The quotinet is : %d",a/b);
+       break; 
+case '%': printf("The quotinet is : %d",a%b);
+       break;
+default:printf("invalid operator");
+       break;
 }
 return 0;
 }

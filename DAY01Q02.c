@@ -14,7 +14,7 @@ int main (){
    int product = a*b ;
    int quotient = a/b ;
 printf("The sum is : %d\n",sum);
-printf("The difference is %d\n",difference);
+printf("The difference is : %d\n",difference);
 printf("The product is : %d\n",product);
 printf("The quotient is : %d",quotient);
 return 0;

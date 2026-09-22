@@ -15,6 +15,6 @@ for(;n>0 ;n=n/10){
 digit = n % 10;
 sum = sum + digit;
 }
-printf("Tsum is : %d",sum);
+printf("The sum is : %d",sum);
 return 0;
 }

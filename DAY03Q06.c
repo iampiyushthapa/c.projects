@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (){
 
-    //Q6: Write a program to swap two num ers using a third variable.
+    //Q6: Write a program to swap two numbers using a third variable.
 
 
     int a ;

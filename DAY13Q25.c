@@ -16,7 +16,7 @@ scanf(" %c",& operation);
 
 switch (operation)
 {
-case '+':printf("the sum is : %d",a+b);
+case '+':printf("The sum is : %d",a+b);
        break;
 case '-': printf("The diference is :%d",a-b);
        break;
@@ -24,7 +24,7 @@ case '*': printf("The product is : %d",a*b);
        break;
 case '/': printf("The quotinet is : %d",a/b);
        break; 
-case '%': printf("The quotinet is : %d",a%b);
+case '%': printf("The remainder is : %d",a%b);
        break;
 default:printf("invalid operator");
        break;

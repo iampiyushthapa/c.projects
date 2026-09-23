@@ -7,7 +7,7 @@ int main() {
     int n;
     int reverse = 0;
 
-    printf("Enter binary number(0|1): ");
+    printf("Enter binary number(0||1): ");
     scanf("%d", &n);
 
     for(; n > 0; n = n / 10) {

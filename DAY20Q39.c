@@ -6,7 +6,6 @@ int main (){
 int digit = 0;
 int n;
 int product = 1;
-int sum =0;
 printf("Enter number n: ");
 scanf("%d",&n);
 

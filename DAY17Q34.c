@@ -9,8 +9,6 @@ int factor = 0;
 printf("Enter the number : ");
 scanf("%d",&n);
 
-int given_number = n ;
-
 for (int i=1; i<=n;i++){
  if (n%i==0){
   factor=factor + 1;
